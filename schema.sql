@@ -16,6 +16,8 @@ CREATE TABLE planets (
 	star_mass int,
 	star_radius int,
 	star_age int,
+	pl_hostname text,
+	pl_letter text,
 	orbital_period_y int,
 	eccentricity int,
 	planet_jup_mass int,
@@ -48,3 +50,5 @@ CREATE TABLE observatories (
 	Established int,
 	Location varchar
 );
+
+select * from observatories;
